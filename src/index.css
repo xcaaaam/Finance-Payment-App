@@ -16,3 +16,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes neonGradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.bg-neon {
+  background: linear-gradient(270deg, #260766, #6A1EE1);
+  background-size: 400% 400%;
+  animation: neonGradient 6s ease infinite;
+}

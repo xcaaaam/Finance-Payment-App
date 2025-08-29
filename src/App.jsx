@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { motion } from "framer-motion";
 
@@ -218,3 +219,11 @@ export default function App() {
     </motion.div>
   );
 }
+
+import PaymentCards from "./components/PaymentCards";
+
+function App() {
+  return <PaymentCards />;
+}
+
+export default App;
